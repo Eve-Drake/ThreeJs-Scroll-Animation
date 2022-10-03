@@ -10,10 +10,6 @@ renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.render(scene, camera);
 
-const pointLight = new THREE.PointLight(0xffffff);
-pointLight.position.set(10, 10, 10)
-scene.add(pointLight)
-
 const geometry = new THREE.IcosahedronGeometry(5, 5);
 const material = new THREE.MeshBasicMaterial({color: 0x00FFFF, wireframe: true});
 const icosahedron = new THREE.Mesh(geometry, material);
