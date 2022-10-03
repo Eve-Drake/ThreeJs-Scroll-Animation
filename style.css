@@ -1,0 +1,63 @@
+*{
+  scroll-behavior: smooth;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main{
+  position: absolute;
+  color: white;
+  overflow-x: hidden;
+}
+
+header{
+  font-size: 5em;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+blockquote{
+  height: 100vh;
+  font-size: 2em;
+  display: grid;
+  justify-content: right;
+}
+
+.shortDesc{
+  text-align: center;
+}
+
+section{
+  height: 80vh;
+  font-size: 0.;
+  padding: 0.5em;
+  overflow-y: hidden;
+}
+
+.description{
+  margin: 2em
+}
+
+.description > p :nth-child(even){
+  width: 60vw;
+  background-color: white;
+  align-content: right;
+}
+
+.contact{
+  padding: 5em, 0em;
+  text-align: center;
+  height: 50vh;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+}
+
